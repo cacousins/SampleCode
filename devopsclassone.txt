@@ -1,0 +1,153 @@
+    1  ping 192.168.1.100
+    2  ip addr | grep inet
+    3  ping 192.168.1.100
+    4  telnet 192.168.1.100 1337
+    5  ifconfig
+    6  ipconfig
+    7  ifconfig -a
+    8  sudo apt install net-tools
+    9  ifconfig
+   10  ifconfig -a
+   11  nc -l 1337
+   12  ifconfig -a
+   13  ping 192.168.1.100
+   14  ifconfig -a
+   15  shutdown now
+   16  ip addr | grep inet
+   17  shutdown
+   18  shutdown now
+   19  date
+   20  date -- help
+   21  date --help
+   22  date %a
+   23  date +%a
+   24  date +%y
+   25  shutdown -now
+   26  shutdown
+   27  sudo apt-get git
+   28  sudo apt-get update
+   29  sudo apt-get install git
+   30  mkdir devops
+   31  cd devops
+   32  nano 1.txt
+   33  ls
+   34  nano 2.txt
+   35  LS
+   36  git clear
+   37  clear
+   38  git init
+   39  ls
+   40  get status
+   41  git status
+   42  git add 1.txt 2.txt
+   43  git status
+   44  git commit -m "First Commit adding 1.txt and 2.txt"
+   45  git config --global user.email "cacousins@gmail.com"
+   46  git config --global user.name "cacousins"
+   47  git commit -m "First Commit adding 1.txt and 2.txt"
+   48  git status
+   49  nano 3.txt
+   50  git status
+   51  nano 2.txt
+   52  git status
+   53  git remote add origin "https://github.com/cacousins/devops-course.git"
+   54  git push origin master
+   55  git status
+   56  git add 2.txt
+   57  git status
+   58  git commit -m "modified 2.txt"
+   59  git push origin master
+   60  git status
+   61  git add 3.txt
+   62  git status
+   63  git push origin master
+   64  git status
+   65  git commit -m "Adding 3.txt file"
+   66  git push origin master
+   67  git status
+   68  nano 4.txt
+   69  git status
+   70  git add 4.txt
+   71  git status
+   72  git commit -m "fourth file called 4.txt"
+   73  git status
+   74  git push origin master
+   75  sudo shutdown
+   76  sudo apt-get install git
+   77  git --version
+   78  which git
+   79  mkdir sampleApp
+   80  ls
+   81  cs sampleApp/
+   82  cd sampleApp/
+   83  ls -a
+   84  git init
+   85  ls -a
+   86  vi HelloWorld.java
+   87  ls
+   88  cat HelloWorld.java
+   89  git status
+   90  git --oneline
+   91  git log  --oneline
+   92  git config --global user.name "Colin Cousins"
+   93  git config --global user.email "cacousins@gmail.com"
+   94  git commit -m "This is my first Commit"
+   95  git add HelloWorld.java
+   96  git commit -m "This is my first Commit"
+   97  git log
+   98  ls -a
+   99  git log --oneline
+  100  nano readme.md
+  101  git status
+  102  ls -a
+  103  git add readme.md
+  104  git status
+  105  git commit -m "Added a new file README.md"
+  106  ls -a
+  107  git log
+  108  mkdir web1 web2
+  109  ls
+  110  nano HelloWorld.java
+  111  git status
+  112  ls -a
+  113  git add HelloWorld.java
+  114  git commit -m "Updated HelloWorld.java with message"
+  115  git status
+  116  git log
+  117  nano HelloWorld.java
+  118  git status
+  119  git diff
+  120  git add HelloWorld.java
+  121  git reset HEAD HelloWorld.java
+  122  git status
+  123  git add HelloWorld.java
+  124  git commit -a "Added a new print statement"
+  125  git commit -m "Added a new print statement"
+  126  git status
+  127  nano HelloWorld.java
+  128  git status
+  129  nano readme.md
+  130  GIT STATUS
+  131  git status
+  132  git add .
+  133  git commit -m "two files changed updated"
+  134  nano HelloWorld.java
+  135  git log
+  136  git add HelloWorld.java
+  137  git commit --amend -m "updated code with syntax with issues"
+  138  git log
+  139  history
+  140  history > githubclass.txt
+  141  ls
+  142  nano githubclass.txt
+  143  git log --stat
+  144  git log --oneline
+  145  git log --stat -n 1
+  146  git log --stat -n 1 --author="Colin Cousins"
+  147  git diff
+  148  git diff HEAD~1
+  149  git log --stat -n 1
+  150  git log --onelone
+  151  git log --oneline
+  152  git diff b120ae9 6ff7e2c
+  153  history > devopsclassone.txt
